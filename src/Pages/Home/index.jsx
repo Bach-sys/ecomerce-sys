@@ -20,7 +20,7 @@ function Home() {
   const renderView = () => {
     if (!context.items) {
       return Array.from({ length: 8 }).map((_, index) => (
-        <CardSkeleton key={index} />
+        <CardSkeleton />
       ))
     }
 

@@ -55,7 +55,6 @@ const CheckoutSideMenu = () => {
                     />
                 ))}
             </div>
-            {/* Footer fijo con total y botón */}
             <div className='px-6 py-4 border-t border-gray-200 mt-auto'>
                 <p className='flex justify-between items-center mb-2'>
                     <span className='font-light'>Total:</span>
